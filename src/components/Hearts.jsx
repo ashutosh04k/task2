@@ -1,6 +1,7 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./Aboutus.css";
+import { ArroIcon } from "../assets/svg";
 
 const Hearts = () => {
   return (
@@ -20,22 +21,37 @@ const Hearts = () => {
           <h2 className="title" style={{fontFamily:"Cormorant Garamond" , fontSize:"3rem", fontWeight:"300",color:"#000000",letterSpacing:'2px'}}>WE DESIGN YOUR WORLD WITH OUR HEARTS</h2>
           <p className="subtitle" style={{fontFamily:'Raleway',letterSpacing:'.4em'}}>SETTING A STRONG FOUNDATION FOR YOU</p>
           <div className="row">
-            <div className="col-md-6">
-              <ul className="list-unstyled">
-                <li><i className="bi bi-dot me-2"></i>Impeccable project execution</li>
-                <li><i className="bi bi-chevron-right me-2"></i>Transparency in dealings</li>
-                <li><i className="bi bi-chevron-right me-2"></i>Litigation-free projects</li>
-                <li><i className="bi bi-chevron-right me-2"></i>Positive exit covenants (Institutions, Investors, Customers)</li>
-              </ul>
-            </div>
-            <div className="col-md-6">
-              <ul className="list-unstyled">
-                <li><i className="bi bi-chevron-right me-2"></i>Strong brand presence & delivery excellence</li>
-                <li><i className="bi bi-chevron-right me-2"></i>In-depth due diligence to ensure clear land titles</li>
-                <li><i className="bi bi-chevron-right me-2"></i>Design innovation with emphasis on practicality</li>
-              </ul>
-            </div>
-          </div>     
+  <div className="col-md-6">
+    <ul className="list-unstyled">
+      <li style={{ fontSize: '20px', fontFamily: "Cormorant Garamond", marginBottom: '5px', display: 'flex', alignItems: 'center' }}>
+        <ArroIcon style={{ marginRight: '10px' }} />{" "}Impeccable project execution
+      </li>
+      <li style={{ fontSize: '20px', fontFamily: "Cormorant Garamond", marginBottom: '5px', display: 'flex', alignItems: 'center' }}>
+        <ArroIcon style={{ marginRight: '10px' }} />{" "}Transparency in dealings
+      </li>
+      <li style={{ fontSize: '20px', fontFamily: "Cormorant Garamond", marginBottom: '5px', display: 'flex', alignItems: 'center' }}>
+        <ArroIcon style={{ marginRight: '10px' }} />{" "}Litigation-free projects
+      </li>
+      <li style={{ fontSize: '20px', fontFamily: "Cormorant Garamond", marginBottom: '5px', display: 'flex', alignItems: 'center' }}>
+        <ArroIcon style={{ marginRight: '10px' }} />{" "}Positive exit covenants (Institutions, Investors, Customers)
+      </li>
+    </ul>
+  </div>
+  <div className="col-md-6">
+    <ul className="list-unstyled">
+      <li style={{ fontSize: '20px', fontFamily: "Cormorant Garamond", marginBottom: '5px', display: 'flex', alignItems: 'center' }}>
+        <ArroIcon style={{ marginRight: '10px' }} />{" "}Strong brand presence & delivery excellence
+      </li>
+      <li style={{ fontSize: '20px', fontFamily: "Cormorant Garamond", marginBottom: '5px', display: 'flex', alignItems: 'center' }}>
+        <ArroIcon style={{ marginRight: '10px' }} />{" "}In-depth due diligence to ensure clear land titles
+      </li>
+      <li style={{ fontSize: '20px', fontFamily: "Cormorant Garamond", marginBottom: '5px', display: 'flex', alignItems: 'center' }}>
+        <ArroIcon style={{ marginRight: '10px' }} />{" "}Design innovation with emphasis on practicality
+      </li>
+    </ul>
+  </div>
+</div>
+ 
           <div className="text-center mt-4">
         <img
           src="https://www.thewadhwagroup.com/wp-content/uploads/2025/02/VENTILIT-Wadhwa-04.jpg"

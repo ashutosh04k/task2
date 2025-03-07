@@ -19,8 +19,6 @@ const Home = () => {
       {/* Navbar */}
       <Navbar/>
       <Herosection/>
-
-
       <AboutUs />
       <StatsSection />
       <Gallery />
